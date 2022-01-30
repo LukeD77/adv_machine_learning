@@ -137,6 +137,7 @@ if __name__ == '__main__':
     password = getpass.getpass(prompt = 'What is your email password?')
 
     dad_joke_emailer(args.email, password)
+```
 
 ### Jekyll Themes
 
