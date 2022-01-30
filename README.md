@@ -33,7 +33,6 @@ The email code was used referencing a tutorial at the link: https://realpython.c
 I also used this to make a dad joke emailer that emails a random dad joke whenever the script is ran!
 
 ```Python
-
 #Required packages to impliment from command line:
 import argparse
 import getpass
@@ -137,3 +136,12 @@ if __name__ == '__main__':
     password = getpass.getpass(prompt = 'What is your email password?')
 
     dad_joke_emailer(args.email, password)
+```
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LukeD77/adv_machine_learning/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
