@@ -33,7 +33,6 @@ The email code was used referencing a tutorial at the link: https://realpython.c
 I also used this to make a dad joke emailer that emails a random dad joke whenever the script is ran!
 
 ```Python
-
 #Required packages to impliment from command line:
 import argparse
 import getpass
