@@ -16,13 +16,13 @@ find me most often:
 
 ### My favorite math equation is Kepler's third law of planetary motion
 
-![math](http://www.sciweavers.org/tex2img.php?eq=%20T%5E2%20%3D%20%20%5Cfrac%7B4%2Api%5E2%7D%7BG%28M%2Bm%29%7D%20%2Ar%5E3&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![math](http://www.sciweavers.org/tex2img.php?eq=T%5E2%20%3D%20%20%5Cfrac%7B4%2Api%5E2%7D%7BG%28M%2Bm%29%7D%20r%5E3&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-Where ![orbital period](http://www.sciweavers.org/tex2img.php?eq=%20T%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) is the orbital period, 
-![Graviational constant](http://www.sciweavers.org/tex2img.php?eq=G&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) is the gravitational constant, 
-![Mass of planet](https://bit.ly/36KgYfu) is the mass of the planet, 
-![Mass of moon](http://www.sciweavers.org/tex2img.php?eq=m&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) is the mass of the moon, 
-and ![Radius of moon's orbit](https://bit.ly/3rW1q1y) is the radius of the moon's orbit.
+Where **T^2** is the orbital period, 
+**G** is the gravitational constant, 
+**M** is the mass of the planet, 
+**m** is the mass of the moon, 
+and **r^3** is the radius of the moon's orbit.
 
 I am working to establish a career in Astrobiology, so detailing the characteristics of planets appeals to my joy of Astronomy. 
 
