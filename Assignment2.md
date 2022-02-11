@@ -2,6 +2,8 @@
 
 ### Locally Weighted Regression and Random Forest Regression comparison
 
+
+
 Below is the function written for the Locally Weighted Regression 
 ```python
 def kernel_function(xi, x0, kern, tau):
@@ -23,11 +25,11 @@ def lowess_regression(x,y,kern,tau):
     return yhat
 ```
 
-The Lowess was run on the entire dataset and predictions for the entire dataset were made. The resulting MSE was 10.1, which was calculated using the MSE command from
-sklearn.preprocessing. The predicted vs actual values were also plotted.
+The Lowess was run on the entire dataset and predictions for the entire dataset were made. Using a tau of 0.0001, the resulting MSE was 10.1, which was calculated using the MSE command from sklearn.preprocessing. The predicted vs actual values were also plotted.
 
 ![actual vs predicted Lowess](https://user-images.githubusercontent.com/67921793/153518113-2a9d8f67-f236-4d84-8859-d13105b5ea4c.png)
 
+The clear one-to-one linear trend displays a relatively accurate model.
 
 Below is the code to intialize, fit, and predict with the Random Forest Regression
 ```python
@@ -35,3 +37,8 @@ model2 = RandomForestRegressor(n_estimators=500, max_depth=3)
 model2.fit(xtrain.reshape(-1,1),ytrain)
 yhat = model2.predict(xtest.reshape(-1,1))
 ```
+
+Using an n_estimator value of 500 and max_depth of 3, the MSE was 34.7. The predicted vs actual values were also plotted.
+![predicted vs actual](https://user-images.githubusercontent.com/67921793/153518327-7dc962c8-6237-4de1-813e-2f9d7c8eddf4.png)
+
+The unclear one-to-one linear trend between the predicted and actual vlaues indicates an innacurate model.
