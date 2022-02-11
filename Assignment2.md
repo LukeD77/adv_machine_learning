@@ -9,7 +9,7 @@ Locally Weighted Regression is a modified version of the standard regression mod
 
 When constructing linear regressions, we solve for **beta** assuming that **X^TX** is invertable. When also accounting for weights and then solving for **yhat**, we get the equation:
 
-![math2](https://bit.ly/3sAH4Lu)
+![math2](https://bit.ly/3sAuNqj)
 
 ### Code
 Below is the function written for the Locally Weighted Regression 
@@ -43,6 +43,10 @@ The Lowess was run on the entire dataset and predictions for the entire dataset 
 The clear one-to-one linear trend displays a relatively accurate model.
 
 ### Random Forest Regression
+Random Forest regression is an ensemble method that utilizes multiple decision trees and averaging the output of all trees to predict y. A depiction of the model workflow is below. Image credit from https://levelup.gitconnected.com/random-forest-regression-209c0f354c84
+
+![image](https://user-images.githubusercontent.com/67921793/153527960-c8ba90d6-18c8-43ce-9adc-9253f0d58a4c.png)
+
 
 Below is the code to intialize, fit, and predict with the Random Forest Regression
 ```python
