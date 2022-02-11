@@ -1,7 +1,4 @@
-# Assignment 2
-
-### Locally Weighted Regression and Random Forest Regression comparison
-
+# Assignment 2 - Locally Weighted Regression and Random Forest Regression comparison
 
 ### Locally Weighted Regression (Lowess)
 Below is the function written for the Locally Weighted Regression 
@@ -47,4 +44,4 @@ The unclear one-to-one linear trend between the predicted and actual vlaues indi
 
 ### Conclusion
 
-Based upon the MSE and trends in predicted vs actual y values, Locally Weighted Regression outperformed Random Forest Regression by a large margin. Increasing the number of trees or tree depth in the Random Forest model offered no reduction in MSE and moreover no increase in model accuraacy.
+Based upon the MSE and trends in predicted vs actual y values, Locally Weighted Regression outperformed Random Forest Regression by a large margin. Increasing the number of trees or tree depth in the Random Forest model offered no reduction in MSE and moreover no increase in model accuraacy. Utilizing standardized input data resulted in higher MSE for both models and was therefore not used in the final models. 
