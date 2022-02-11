@@ -56,6 +56,7 @@ yhat = model2.predict(xtest.reshape(-1,1))
 ```
 
 Using an n_estimator value of 500 and max_depth of 3, the MSE was 34.7. The predicted vs actual values were also plotted.
+
 ![predicted vs actual](https://user-images.githubusercontent.com/67921793/153518327-7dc962c8-6237-4de1-813e-2f9d7c8eddf4.png)
 
 The unclear one-to-one linear trend between the predicted and actual vlaues indicates an innacurate model.
