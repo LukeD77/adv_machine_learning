@@ -3,7 +3,7 @@
 ### Locally Weighted Regression and Random Forest Regression comparison
 
 
-
+### Locally Weighted Regression (Lowess)
 Below is the function written for the Locally Weighted Regression 
 ```python
 def kernel_function(xi, x0, kern, tau):
@@ -31,6 +31,8 @@ The Lowess was run on the entire dataset and predictions for the entire dataset 
 
 The clear one-to-one linear trend displays a relatively accurate model.
 
+### Random Forest Regression
+
 Below is the code to intialize, fit, and predict with the Random Forest Regression
 ```python
 model2 = RandomForestRegressor(n_estimators=500, max_depth=3)
@@ -42,3 +44,7 @@ Using an n_estimator value of 500 and max_depth of 3, the MSE was 34.7. The pred
 ![predicted vs actual](https://user-images.githubusercontent.com/67921793/153518327-7dc962c8-6237-4de1-813e-2f9d7c8eddf4.png)
 
 The unclear one-to-one linear trend between the predicted and actual vlaues indicates an innacurate model.
+
+### Conclusion
+
+Based upon the MSE and trends in predicted vs actual y values, Locally Weighted Regression outperformed Random Forest Regression by a large margin. Increasing the number of trees or tree depth in the Random Forest model offered no reduction in MSE and moreover no increase in model accuraacy.
