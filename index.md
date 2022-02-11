@@ -2,6 +2,10 @@
 
 ### Hello World!
 
+### Table of contents for my work
+ - [Assignment 2](https://github.com/LukeD77/adv_machine_learning/blob/main/Assignment2.md)
+
+### About me!
 My name is Luke Denoncourt, and I am an excited senior from Windsor, Virginia. I am a biology and data science double major while working on my honors thesis, 
 which is utilizing a machine learning model to predict the fitness of a Milkweed plant based upon its soil microbiome. I also am enjoying my third year of working in 
 Residence Life here at W&M while impatiently waiting to hear back from graduate school decisions for the Microbiology PhD programs I applied to. On campus, you will 
@@ -27,10 +31,10 @@ and **r^3** is the radius of the moon's orbit.
 I am working to establish a career in Astrobiology, so detailing the characteristics of planets appeals to my joy of Astronomy. 
 
 
-### A fun piece of python code an automatic emailer that I use frequently when I have to run code and leave since it takes so long to complete
+### A fun piece of python code I use is an automatic emailer for when I have code with long runtimes and I can email myself the results. This way, I can deliberate next steps before I am even back in front of my computer.
 The email code was used referencing a tutorial at the link: https://realpython.com/python-send-email/
 
-I also used this to make a dad joke emailer that emails a random dad joke whenever the script is ran!
+I also modified this email code to make a dad joke emailer that emails a random dad joke whenever the script is ran!
 
 ```Python
 #Required packages to impliment from command line:
@@ -137,6 +141,7 @@ if __name__ == '__main__':
 
     dad_joke_emailer(args.email, password)
 ```
+
 
 ### Jekyll Themes
 
