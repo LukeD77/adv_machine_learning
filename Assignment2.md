@@ -1,6 +1,11 @@
+
+
 # Assignment 2 - Locally Weighted Regression and Random Forest Regression comparison
 
 ### Locally Weighted Regression (Lowess)
+Locally Weighted Regression is a modified version of the standard regression model where the variables are weighted at strengths based upon variable tau to create non-parametric models. The regions of the regression model are calculated by running a kernel across the space and calculating the regression model with the kernel applied over the datapoints, giving weight only to local points in the modeling. This allows for modeling groupings of data instead of the entire dataset. The equation for Lowess Regression is 
+
+
 Below is the function written for the Locally Weighted Regression 
 ```python
 def kernel_function(xi, x0, kern, tau):
