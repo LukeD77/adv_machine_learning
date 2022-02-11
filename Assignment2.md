@@ -5,11 +5,11 @@
 ### Locally Weighted Regression (Lowess)
 Locally Weighted Regression is a modified version of the standard regression model where the variables are weighted at strengths based upon variable tau to create non-parametric models. The regions of the regression model are calculated by running a kernel across the space and calculating the regression model with the kernel applied over the datapoints, giving weight only to local points in the modeling. This allows for modeling groupings of data instead of the entire dataset. The equation for Lowess Regression is this:
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%24%24%5Clarge%20W%28i%29y%20%3D%20W%28i%29X%5Ccdot%5Cbeta%20%2B%5Csigma%20W%28i%29%5Cepsilon%20%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$\large W(i)y = W(i)X\cdot\beta +\sigma W(i)\epsilon $$" width="224" height="19" />
+![math1](https://bit.ly/3sALtOq)
 
 When constructing linear regressions, we solve for **beta** assuming that **X^TX** is invertable. When also accounting for weights and then solving for **yhat**, we get the equation:
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%24%24%5Clarge%20%5Chat%7By%7D%20%3D%20X%28X%5ETWX%29%5E%7B-1%7D%28X%5ETWy%29%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$\large \hat{y} = X(X^TWX)^{-1}(X^TWy)$$" width="196" height="22" />
+![math2](https://bit.ly/3sAH4Lu)
 
 ### Code
 Below is the function written for the Locally Weighted Regression 
