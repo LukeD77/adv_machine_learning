@@ -27,10 +27,10 @@ and **r^3** is the radius of the moon's orbit.
 I am working to establish a career in Astrobiology, so detailing the characteristics of planets appeals to my joy of Astronomy. 
 
 
-### A fun piece of python code an automatic emailer that I use frequently when I have to run code and leave since it takes so long to complete
+### A fun piece of python code I use is an automatic emailer for when I have code with long runtimes and I can email myself the results. This way, I can deliberate next steps before I am even back in front of my computer.
 The email code was used referencing a tutorial at the link: https://realpython.com/python-send-email/
 
-I also used this to make a dad joke emailer that emails a random dad joke whenever the script is ran!
+I also modified this email code to make a dad joke emailer that emails a random dad joke whenever the script is ran!
 
 ```Python
 #Required packages to impliment from command line:
