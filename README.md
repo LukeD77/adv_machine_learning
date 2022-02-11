@@ -2,6 +2,10 @@
 
 ### Hello World!
 
+### Table of contents for my work
+ - [Assignment 2](https://github.com/LukeD77/adv_machine_learning/blob/main/Assignment2.md)
+
+### About me!
 My name is Luke Denoncourt, and I am an excited senior from Windsor, Virginia. I am a biology and data science double major while working on my honors thesis, 
 which is utilizing a machine learning model to predict the fitness of a Milkweed plant based upon its soil microbiome. I also am enjoying my third year of working in 
 Residence Life here at W&M while impatiently waiting to hear back from graduate school decisions for the Microbiology PhD programs I applied to. On campus, you will 
@@ -138,10 +142,3 @@ if __name__ == '__main__':
     dad_joke_emailer(args.email, password)
 ```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LukeD77/adv_machine_learning/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
