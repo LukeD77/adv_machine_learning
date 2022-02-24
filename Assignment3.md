@@ -2,7 +2,7 @@
 
 ### Extreme gradient boost
 
-Extreme Gradient Boost (XGBoost) is a method of machine learning that uses decision trees creating splits of the data and examining based upon calculations including the residuals for making new decision tree leaves. The calculation used is called the gain function; the equation of which is below.
+Extreme Gradient Boost (XGBoost) is a method of machine learning that uses decision trees which create splits in the test data and permforms calculations, including the residuals, for making new decision tree leaves. The calculation used is called the gain function, the equation of which is below.
 
 ![gain function](https://user-images.githubusercontent.com/67921793/155613003-5e788a89-61ae-4e02-a7ad-373cd380c50f.png)
 
