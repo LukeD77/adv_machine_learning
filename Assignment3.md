@@ -13,7 +13,7 @@ Extreme Gradient Boost (XGBoost) is a method of machine learning that uses decis
 - **λ** is the regularization parameter which makes the individual observations less influencial to model predictions
 - **γ** is the required loss to split a node into two more leaves on the model
 
-After all splits are made and gain functions are evaluated, the split yielding the largest gain function. When all splits yield negative gain values, then the tree reaches the end. This tree then predicts on the train data and new residuals are created to train another tree. This process is repeated until the number of estimators is reached. Then the sum of each decision tree times the learning rate because the final prediction of the test data.
+After all splits are made and gain functions are evaluated, the split yielding the largest gain function is used to make a new decision tree leaf. When all splits yield negative gain values, then the tree reaches the end. This tree then predicts on the train data and new residuals are created to train another tree. This process is repeated until the number of estimators is reached. Then the sum of each decision tree times the learning rate because the final prediction of the test data.
 
 ### Code for running models
 
