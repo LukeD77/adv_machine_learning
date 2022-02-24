@@ -1,4 +1,4 @@
-# Assignment 3
+# Assignment 3 - Multivariate Regression Analysis and Gradient Boosting
 
 ### Extreme gradient boost
 
@@ -94,7 +94,7 @@ The models used the Boston Housing Price data with crime rate, number of rooms, 
 | XGB | 22.08 | 3.11
  
  
-While these values are helpful to interpret model accuracy, they do not lend any indication for what areas of the data the model struggled with. For this, I plotted the predicted vs actual house prices for the last of the 50 iterations for each model.
+Based upon the MAE and MSE values, XGB performed the best, there was a tie between Random Forest and Boosted Lowess Regression for 2nd, and Lowess Regression was last. While these values are helpful to interpret model accuracy, they do not lend any indication for what areas of the data the model struggled with. For this, I plotted the predicted vs actual house prices for the last of the 50 iterations for each model.
 
 ![pred vs actual](https://user-images.githubusercontent.com/67921793/155621826-80c5458b-e13c-423f-92a2-639627b8ad24.png)
 
@@ -104,7 +104,8 @@ These figures, while rather chaotic, show that the models struggle to predict va
 
 These graphs display a clearer depiction of the predictive power, or lack there of, for the models in certain areas. These values are sorted, so the leftmost values are lower prices and the rightmost values are the highest prices. The models all struggle to predict small house prices but then slwly decrease in the highest and overall differences between predicted and actual as you move into the median price houses. The models then at the end start to get more errnoeous predicting high priced houses, as was evident in the previous figure. Ideally, these graphs would not be used since the residual would be close to zero, but these models struggle to accurrately predict such clustered data. Different approaches will be required to model these data more accurately.
 
-Below is the code for running the models 50 times with the kfold.
+**Below is the code for running the models 50 times with the kfold.**
+
  ```python
  mse_lwr = []
 mse_boostlwr = []
