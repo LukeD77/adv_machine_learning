@@ -18,8 +18,8 @@ And an output variable of Concrete compressive strength(MPa, megapascals). The t
 **Table 1**
 
 | Model | Boost Number    | MSE
-| :---:   | :---: | :---: |
-| Lowess Reg | 1     | 149.00
+| :---:  | :---: | :---: |
+| Lowess Reg | 1 | 149.00
 | Lowess Reg | 2 | 149.40
 | Lowess Reg | 3 | 149.85
 | XGB | 1 | 158.30
