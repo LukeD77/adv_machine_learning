@@ -16,6 +16,7 @@ In this assignment I tested Lowess regression or XGBoost as the primary regressi
 And an output variable of Concrete compressive strength(MPa, megapascals). The table below (table 1) provides MSE for the model outputs for each model output along with number of boostings.
 
 **Table 1**
+
 | Model | Boost Number    | MSE
 | :---:   | :---: | :---: |
 | Lowess Reg | 1     | 149.00
@@ -29,6 +30,7 @@ And an output variable of Concrete compressive strength(MPa, megapascals). The t
 The Lowess Regression overall acheived the best accuracy with boostings 1,2, and 3 in order of best to worst accuracy. Interstingly, XGB had the best accuracy at 3 boostings, then 1, then 2. LightGBM was in the middle in terms of accuracy. I initially attempted to run all 8 input variables through the models, but Lowess Regression alone took almost an hour, so I reduced the amount of features to 3. However, LightGBM's value is by reducing the number of features to increase speed. Therefore, I attempted to run the model with 3 features and 8 features, and then compare it to running XGboost with zero boosting to compare the time taken as well as model accuracy. The results are found below in table 2.
 
 **Table 2**
+
 | Model |Train data size |  MSE | time (seconds)
 | :---: | :---: | :---: | :---: |
 | LightGBM | Small | 163.56 | 0.0279
