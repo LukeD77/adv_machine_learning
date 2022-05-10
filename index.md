@@ -3,7 +3,11 @@
 ### Hello World!
 
 ### Table of contents for my work
- - [Assignment 2](https://github.com/LukeD77/adv_machine_learning/blob/main/Assignment2.md)
+ - [Assignment 2](https://luked77.github.io/adv_machine_learning/Assignment2.md)
+ - [Assignment 3](https://luked77.github.io/adv_machine_learning/Assignment3.md)
+ - [Assignment 4](https://luked77.github.io/adv_machine_learning/Assignment4.md)
+ - [Assignment 5](https://luked77.github.io/adv_machine_learning/Assignment5.md)
+ - [Final](https://luked77.github.io/adv_machine_learning/final.md)
 
 ### About me!
 My name is Luke Denoncourt, and I am an excited senior from Windsor, Virginia. I am a biology and data science double major while working on my honors thesis, 
